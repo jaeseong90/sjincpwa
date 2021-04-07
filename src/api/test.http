@@ -1,0 +1,6 @@
+get https://localhost:xxxx/Member/GetMember
+Content-Type: application/json; charset=utf-8
+
+{
+    
+}

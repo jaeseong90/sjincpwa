@@ -1,0 +1,55 @@
+.sidebar-wrapper{
+
+}
+.sidebar-wrapper > .sidebar-content{
+
+}
+
+.sidebar-overay{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+
+.sidebar-overay.show{
+    display: block;
+}
+
+ .sidebar-menu{
+    height:100%;
+    width:0px;
+    position:fixed!important;
+    z-index:3;
+    overflow:hidden;
+    background-color:#aaa;
+    transition:width 0.1s;
+}
+
+.sidebar-menu.show{
+    width:300px;
+}
+
+
+/* ------------------ */
+.sidebar-wrapper.opend {
+
+}   
+
+.sidebar-content{
+
+}
+
+.sidebar-overay.opend{
+
+}
+
+.sidebar-menu{
+
+}
